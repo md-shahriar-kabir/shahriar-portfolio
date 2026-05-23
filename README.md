@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 MD Shahriar Kabir — Developer Portfolio
 
-## Getting Started
+A modern and responsive personal portfolio website built with **Next.js**, **Tailwind CSS**, **Framer Motion**, **GSAP**, and **Lenis Smooth Scrolling**.
 
-First, run the development server:
+This portfolio showcases my projects, skills, experience, and development journey as a MERN Stack Developer.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Live Website
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+👉 https://shahriar-portfolio-tau.vercel.app/
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+* Next.js
+* React.js
+* Tailwind CSS
+* Framer Motion
+* GSAP
+* Lenis Smooth Scroll
+* JavaScript
+* Vercel Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ✨ Features
 
-## Deploy on Vercel
+* Fully Responsive Design
+* Modern UI/UX
+* Smooth Scrolling Experience
+* Interactive Animations
+* Dynamic Project Showcase
+* Download Resume Button
+* Contact Section
+* Social Media Integration
+* Optimized Performance
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📂 Sections Included
+
+* Home
+* About Me
+* Skills
+* Education
+* Experience
+* Projects
+* Contact
+
+---
+
+## 📸 Projects Highlight
+
+Some featured projects included in this portfolio:
+
+* Study Nook
+* GitHub Issues Tracker
+* Job Application Tracker
+* Eid Countdown App
+
+
+---
+
+## 📧 Contact Me
+
+📩 Email: [shahriar.bizwork@gmail.com]
+
+💼 LinkedIn: https://linkedin.com
+
+🐙 GitHub: https://github.com
+
+---
+
+## 📌 Future Improvements
+
+* Add blog section
+* Add dark/light mode toggle
+* Improve animations further
+* Add CMS integration
+* Add multilingual support
+
+---
+
+## ⭐ Support
+
+If you like this project, feel free to give it a ⭐ on GitHub.
+
+---
