@@ -1,26 +1,146 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  --color-cyber-bg: #030014;
+  --font-sans: 'Outfit', 'Inter', sans-serif;
+  --font-mono: 'Fira Code', monospace;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  /* Custom Neon Animations */
+  --animate-float-blob: float-blob 20s infinite alternate ease-in-out;
+  --animate-float-blob-reverse: float-blob-reverse 25s infinite alternate ease-in-out;
+  --animate-marquee: marquee 35s linear infinite;
+  --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  
+  @keyframes float-blob {
+    0% { transform: translate(0px, 0px) scale(1); }
+    33% { transform: translate(45px, -55px) scale(1.15); }
+    66% { transform: translate(-35px, 35px) scale(0.9); }
+    100% { transform: translate(0px, 0px) scale(1); }
+  }
+  @keyframes float-blob-reverse {
+    0% { transform: translate(0px, 0px) scale(1.1); }
+    33% { transform: translate(-55px, 45px) scale(0.85); }
+    66% { transform: translate(45px, -35px) scale(1.15); }
+    100% { transform: translate(0px, 0px) scale(1.1); }
+  }
+  @keyframes marquee {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-50%); }
   }
 }
 
+:root {
+  --background: #030014;
+  --foreground: #f8fafc;
+  
+  /* Theme Space Variables (Indigo/Purple/Blue) */
+  --cyber-primary: 139, 92, 246; /* Purple-500 rgb */
+  --cyber-secondary: 6, 182, 212; /* Cyan-500 rgb */
+  --cyber-accent: 59, 130, 246; /* Blue-500 rgb */
+  --cyber-glow-color: rgba(147, 51, 234, 0.4);
+}
+
+.theme-neon {
+  /* Theme Neon Variables (Pink/Magenta/Cyan) */
+  --cyber-primary: 236, 72, 153; /* Pink-500 rgb */
+  --cyber-secondary: 6, 182, 212; /* Cyan-500 rgb */
+  --cyber-accent: 217, 70, 239; /* Fuchsia-500 rgb */
+  --cyber-glow-color: rgba(236, 72, 153, 0.45);
+}
+
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  font-family: 'Outfit', 'Inter', sans-serif;
+}
+
+/* Custom Premium Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #030014;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(var(--cyber-primary), 0.35);
+  border-radius: 999px;
+  border: 1px solid rgba(var(--cyber-secondary), 0.1);
+  transition: background 0.3s;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(var(--cyber-primary), 0.7);
+}
+
+/* Glassmorphism panel utility */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.012);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 8px 32px 0 rgba(3, 0, 20, 0.45);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-panel:hover {
+  border-color: rgba(var(--cyber-secondary), 0.28);
+  box-shadow: 0 12px 40px 0 rgba(var(--cyber-primary), 0.2);
+}
+
+/* Glowing text overrides */
+.text-glow {
+  text-shadow: 0 0 12px rgba(var(--cyber-primary), 0.55);
+}
+
+.text-glow-cyan {
+  text-shadow: 0 0 12px rgba(var(--cyber-secondary), 0.55);
+}
+
+/* Cyber gradient overlays */
+.bg-gradient-cyber {
+  background: linear-gradient(135deg, rgb(var(--cyber-primary)) 0%, rgb(var(--cyber-secondary)) 100%);
+}
+
+.bg-gradient-cyber-hover:hover {
+  background: linear-gradient(135deg, rgb(var(--cyber-secondary)) 0%, rgb(var(--cyber-primary)) 100%);
+}
+
+.border-cyber-glow {
+  border-color: rgba(var(--cyber-primary), 0.15);
+}
+.border-cyber-glow:hover {
+  border-color: rgba(var(--cyber-secondary), 0.4);
+}
+
+/* typing cursor effect */
+.typing-cursor::after {
+  content: '|';
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Lenis scrolling integration */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
 }
