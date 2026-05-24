@@ -192,6 +192,7 @@ export default function Hero() {
 
             {/* CTA 3: Resume */}
             <a
+              download
               href={portfolioData.personalInfo.resumeUrl}
               className="px-6 py-3.5 rounded-lg font-bold text-xs uppercase tracking-wider border border-white/10 hover:border-cyan-500/50 hover:bg-cyan-500/5 hover:scale-105 transition-all cursor-pointer flex items-center gap-2 text-white"
             >

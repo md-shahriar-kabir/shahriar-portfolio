@@ -57,7 +57,7 @@ export const portfolioData = {
       facebook: "https://www.facebook.com/shariarkabir88",
       // twitter: "https://twitter.com/shahriar_kabir"
     },
-    resumeUrl: "/public/shahriar-kabir-resume.pdf", // Anchor to trigger download or view resume
+    resumeUrl: "/shahriar-kabir-resume.pdf", // Anchor to trigger download or view resume
   },
   
   about: {
