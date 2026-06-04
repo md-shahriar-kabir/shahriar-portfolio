@@ -4,6 +4,8 @@ import React, { useEffect, useState, useRef } from "react";
 import { motion } from "framer-motion";
 import { portfolioData } from "@/data/portfolioData";
 import { Download, Code, ArrowRight, MessageSquare } from "lucide-react";
+import Image from "next/image";
+// import profilePic from  ""
 
 export default function Hero() {
   const { name, title, tagline, typingTexts, socials } = portfolioData.personalInfo;
@@ -300,7 +302,15 @@ export default function Hero() {
               </div>
 
               {/* Info Boot Log Output inside portrait */}
-              <div className="relative z-10 space-y-1 font-mono text-[9px] text-slate-500 w-full text-left uppercase">
+              {/* <Image
+                src={profilePic}
+                alt="profile"
+                height={200}
+                width={200}
+
+              ></Image> */}
+              
+             <div className="relative z-10 space-y-1 font-mono text-[9px] text-slate-500 w-full text-left uppercase">
                 <div className="text-cyan-400/80 flex justify-between"><span>Status:</span> <span className="font-extrabold text-[8px] tracking-wider text-emerald-400 animate-pulse">SYSTEM_ONLINE</span></div>
                 <div className="flex justify-between"><span>Core ID:</span> <span className="text-white">Shahriar Kabir</span></div>
                 <div className="flex justify-between"><span>Stack:</span> <span className="text-white">MERN / NextJS 15</span></div>
@@ -321,6 +331,15 @@ export default function Hero() {
           </motion.div>
 
           <motion.div
+            animate={{ y: [0, 20, 0] }}
+            transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut" }}
+            className="absolute bottom-[50%] left-[4%] z-20 px-3 py-2 rounded-lg border border-white/[0.08] bg-slate-900/60 backdrop-blur-md shadow-2xl flex items-center gap-1.5 pointer-events-none"
+          >
+            <span className="w-2.5 h-2.5 rounded-full bg-purple-500 inline-block" />
+            <span className="font-mono text-[9px] text-slate-200 tracking-wider font-extrabold uppercase">Next.js</span>
+          </motion.div>
+
+          <motion.div
             animate={{ y: [0, 10, 0] }}
             transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut" }}
             className="absolute bottom-[8%] left-[4%] z-20 px-3 py-2 rounded-lg border border-white/[0.08] bg-slate-900/60 backdrop-blur-md shadow-2xl flex items-center gap-1.5 pointer-events-none"
@@ -336,6 +355,15 @@ export default function Hero() {
           >
             <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 inline-block" />
             <span className="font-mono text-[9px] text-slate-200 tracking-wider font-extrabold uppercase">MongoDB</span>
+          </motion.div>
+
+          <motion.div
+            animate={{ y: [0, 8, 0] }}
+            transition={{ duration: 4.8, repeat: Infinity, ease: "easeInOut", delay: 0.8 }}
+            className="absolute bottom-[50%] right-[0%] z-20 px-3 py-2 rounded-lg border border-white/[0.08] bg-slate-900/60 backdrop-blur-md shadow-2xl flex items-center gap-1.5 pointer-events-none"
+          >
+            <span className="w-2.5 h-2.5 rounded-full bg-orange-500 inline-block" />
+            <span className="font-mono text-[9px] text-slate-200 tracking-wider font-extrabold uppercase">Express.js</span>
           </motion.div>
 
           <motion.div
