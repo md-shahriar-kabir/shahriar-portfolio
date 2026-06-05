@@ -44,7 +44,7 @@ export const portfolioData = {
   personalInfo: {
     name: "MD Shahriar Kabir",
     title: "MERN Stack Developer",
-    tagline: "Building high-performance, cinematic, and scale-ready web applications with modern Javascript technologies. Crafting visual experiences that feel premium and run flawlessly.",
+    tagline: "Transforming ideas into powerful web applications through the MERN Stack. Focused on delivering fast, intuitive, and visually engaging experiences that solve real-world problems.",
     typingTexts: [
       "MERN Stack Specialist",
       "Next.js Architect",
