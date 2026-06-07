@@ -169,7 +169,7 @@ export const portfolioData = {
       shortDescription: "A real-time collaborative web application designed for group study and task planning.",
       description: "Study Nook is a premium collaborative workspace created for students and remote study groups. It provides real-time virtual rooms with synchronized study timers, dynamic group chats, interactive task boards (Kanban style), and a live multi-user collaborative whiteboard. Built with a sleek dark futuristic theme, it eliminates distraction and maximizes productivity using seamless websocket connections.",
       techStack: ["React", "Node.js", "Express.js", "MongoDB", "Socket.io", "Tailwind CSS", "JWT"],
-      liveUrl: "https://study-nook-workspace.web.app",
+      liveUrl: "https://studynook-pi.vercel.app/",
       githubUrl: "https://github.com/shahriar-kabir/study-nook-client",
       image: "bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-950",
       features: [
@@ -223,8 +223,8 @@ export const portfolioData = {
       shortDescription: "Interactive Kanban workspace to monitor and manage job applications.",
       description: "Job Application Tracker is a productivity platform designed to help job seekers manage their professional pipeline. Combining clean database schemas with an interactive drag-and-drop board, it enables candidates to organize applications (Applied, Interviewing, Offered, Rejected), track recruiter contacts, log follow-up reminders, and visualize pipeline ratios through rich analytical reports.",
       techStack: ["MongoDB", "Express.js", "React", "Node.js", "Tailwind CSS", "Framer Motion", "Recharts"],
-      liveUrl: "https://job-tracker-mern.web.app",
-      githubUrl: "https://github.com/shahriar-kabir/job-tracker-server",
+      liveUrl: "https://job-application-tracker-red-five.vercel.app/",
+      githubUrl: "https://github.com/md-shahriar-kabir/job-application-tracker",
       image: "bg-gradient-to-br from-emerald-950 via-teal-900 to-cyan-950",
       features: [
         "Fluid drag-and-drop interface powered by Framer Motion to move job cards across funnel phases.",
