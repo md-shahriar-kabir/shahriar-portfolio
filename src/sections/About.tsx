@@ -3,7 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { portfolioData } from "@/data/portfolioData";
-import { Gamepad, BookOpen, GraduationCap, Sparkles, User, Award, ShieldAlert } from "lucide-react";
+import { Gamepad, BookOpen, GraduationCap, Sparkles, User, Award, ShieldAlert, SparkleIcon } from "lucide-react";
 
 export default function About() {
   const { story, hobbies } = portfolioData.about;
@@ -25,7 +25,7 @@ export default function About() {
       case "GraduationCap":
         return <GraduationCap className="w-5 h-5 text-pink-400" />;
       default:
-        return <Sparkles className="w-5 h-5 text-yellow-400" />;
+        return <SparkleIcon className="w-5 h-5 text-yellow-400" />;
     }
   };
 
@@ -135,7 +135,7 @@ export default function About() {
               className="glass-panel rounded-2xl p-6 sm:p-8 space-y-6 text-left"
             >
               <h3 className="text-lg font-bold tracking-tight text-white flex items-center gap-2 border-b border-white/5 pb-4">
-                <Sparkles className="w-5 h-5 text-purple-400" />
+                {/* <Sparkles className="w-5 h-5 text-purple-400" /> */}
                 <span>Interests & Tech Hobbies</span>
               </h3>
 
