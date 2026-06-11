@@ -122,17 +122,18 @@ export const portfolioData = {
       year: "2013 - 2017",
       description: "Focusing on Software Engineering, Data Structures, Algorithms, Artificial Intelligence, and Web Technologies. Actively participating in programming clubs and technical events."
     },
-    {
-      institution: "Programming Hero",
-      degree: "Complete Web Development Course (MERN Stack)",
-      year: "2023 (6 Months)",
-      description: "Intensive training program mastering Frontend and Backend architectures. Built over 15 full-stack applications with focus on REST APIs, security, deployment, and high-performance databases."
-    },
+   
     {
       institution: "Institute of Science, Trade & Technology (ISTT)",
       degree: "Diploma in Data Telecom. & Networking",
       year: "2008 - 2012",
       description: "Focusing on Data Communication, Computer Networks, Telecommunication Systems, Networking Devices & Hardware, Wireless Communication, Network Security, OSI and TCP/IP Models."
+    },
+     {
+      institution: "Programming Hero",
+      degree: "Complete Web Development Course (MERN Stack)",
+      year: "2026 (6 Months)",
+      description: "Intensive training program mastering Frontend and Backend architectures. Built over 15 full-stack applications with focus on REST APIs, security, deployment, and high-performance databases."
     }
   ] as EducationEntry[],
 
