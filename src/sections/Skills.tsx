@@ -191,7 +191,7 @@ export default function Skills() {
               className="glass-panel rounded-2xl p-6 sm:p-8 space-y-6 min-h-[340px]"
             >
               <h3 className="text-lg font-bold tracking-tight text-white flex items-center gap-2 border-b border-white/5 pb-4">
-                <Sparkles className="w-5 h-5 text-purple-400 animate-pulse" />
+                {/* <Sparkles className="w-5 h-5 text-purple-400 animate-pulse" /> */}
                 <span>{activeCategory} Architecture Stack</span>
               </h3>
 
