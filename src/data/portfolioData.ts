@@ -129,36 +129,36 @@ export const portfolioData = {
       description: "Intensive training program mastering Frontend and Backend architectures. Built over 15 full-stack applications with focus on REST APIs, security, deployment, and high-performance databases."
     },
     {
-      institution: "Government College of Science & Technology",
-      degree: "Higher Secondary Certificate (HSC), Science",
-      year: "2018 - 2020",
-      description: "Acquired strong mathematical and logical foundations, contributing to problem-solving capability."
+      institution: "Institute of Science, Trade & Technology (ISTT)",
+      degree: "Diploma in Data Telecom. & Networking",
+      year: "2008 - 2012",
+      description: "Focusing on Data Communication, Computer Networks, Telecommunication Systems, Networking Devices & Hardware, Wireless Communication, Network Security, OSI and TCP/IP Models."
     }
   ] as EducationEntry[],
 
   experience: [
     {
-      role: "Freelance MERN Stack Developer",
+      role: "Senior SEO Specialist",
       company: "I-Map WebSolutions",
       duration: "2023 - 2025",
       responsibilities: [
-        "Architecting, designing, and deploying full-stack web applications for global clients using Next.js 14/15, React, Node.js, and MongoDB.",
-        "Developing highly responsive, interactive UI/UX experiences using Tailwind CSS, GSAP, and Framer Motion.",
-        "Creating robust REST APIs, securing route authentication using JWT and OAuth mechanisms, and designing scalable schema structures in MongoDB.",
-        "Optimizing SEO and page performance, resulting in high Google Lighthouse scores and superior user conversion."
+        "At I Map Web Solutions Ltd., the Senior SEO Specialist is responsible for improving website rankings and increasing organic traffic through effective SEO strategies.",
+        "The role includes keyword research, on-page and technical SEO, content optimization, and competitor analysis.",
+        "I have also handle site audits, fix SEO issues, improve page speed, and ensure proper indexing. Regular performance tracking using tools like Google Analytics and Search Console is required.", 
+        "The role involves working with content and development teams to build SEO-friendly websites and maintaining strong search visibility through updated SEO best practices."
       ],
-      technologies: ["React", "Next.js", "Node.js", "Express.js", "MongoDB", "Framer Motion", "Vercel"]
+      technologies: ["AHREF", "Semrush", "Google Analytics", "Google Tag Manager", "Google Search Console",]
     },
     {
-      role: "Open Source Contributor & Technical Trainer",
-      company: "Developer Community",
-      duration: "2024 - Present",
+      role: "Assistant Manager of IT",
+      company: "Capitec Asset Management Limited",
+      duration: "2021 - 2023",
       responsibilities: [
         "Creating free learning tutorials and articles about MERN Stack, React state management, and modern Web Animation libraries.",
         "Building reusable open-source component packages and UI kits for the developer community.",
         "Providing online mentorship and one-on-one debugging sessions to junior web developers to fast-track their development skills."
       ],
-      technologies: ["JavaScript", "React", "Next.js", "Git", "GitHub", "Tailwind CSS"]
+      technologies: ["G", "React", "Next.js", "Git", "GitHub", "Tailwind CSS"]
     }
   ] as ExperienceEntry[],
 
