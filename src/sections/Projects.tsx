@@ -10,9 +10,9 @@ export default function Projects() {
   const projects = portfolioData.projects;
   const router = useRouter();
 
-  const handleDetailsClick = (id: string) => {
-    router.push(`/projects/${id}`);
-  };
+  // const handleDetailsClick = (id: string) => {
+  //   router.push(`/projects/${id}`);
+  // };
 
   return (
     <section
@@ -116,13 +116,13 @@ export default function Projects() {
               </div>
 
               {/* Action Buttons Row */}
-              <div className="p-6 pt-0 border-t border-white/5 bg-slate-950/10 grid grid-cols-3 gap-2 relative z-10">
+              <div className="p-6 pt-2 border-t border-white/5 bg-slate-950/10 grid grid-cols-3 gap-2 relative z-10">
                 {/* 1. Live link */}
                 <a
                   href={proj.liveUrl}
                   target="_blank"
                   rel="noreferrer"
-                  className="px-2 py-2.5 rounded-lg border border-white/5 hover:border-cyan-500/40 hover:bg-cyan-500/5 transition-all text-[10px] font-bold tracking-widest uppercase text-slate-300 hover:text-cyan-400 text-center flex items-center justify-center gap-1 cursor-pointer"
+                  className="px-6 py-2.5 rounded-lg border border-white/5 hover:border-cyan-500/40 hover:bg-cyan-500/5 transition-all text-[10px] font-bold tracking-widest uppercase text-slate-300 hover:text-cyan-400 text-center flex items-center justify-center gap-1 cursor-pointer"
                 >
                   <ExternalLink className="w-3.5 h-3.5" />
                   <span>Live</span>
@@ -143,13 +143,13 @@ export default function Projects() {
                 </a>
 
                 {/* 3. Details Button */}
-                <button
+                {/* <button
                   onClick={() => handleDetailsClick(proj.id)}
                   className="px-2 py-2.5 rounded-lg bg-gradient-cyber text-slate-950 hover:scale-105 transition-all text-[10px] font-black tracking-widest uppercase text-center flex items-center justify-center gap-0.5 cursor-pointer"
                 >
                   <span>Specs</span>
                   <ChevronRight className="w-3.5 h-3.5" />
-                </button>
+                </button> */}
               </div>
 
             </motion.div>

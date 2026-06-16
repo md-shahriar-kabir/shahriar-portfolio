@@ -171,7 +171,7 @@ export const portfolioData = {
       description: "Study Nook is a premium collaborative workspace created for students and remote study groups. It provides real-time virtual rooms with synchronized study timers, dynamic group chats, interactive task boards (Kanban style), and a live multi-user collaborative whiteboard. Built with a sleek dark futuristic theme, it eliminates distraction and maximizes productivity using seamless websocket connections.",
       techStack: ["React", "Node.js", "Express.js", "MongoDB", "Socket.io", "Tailwind CSS", "JWT"],
       liveUrl: "https://studynook-pi.vercel.app/",
-      githubUrl: "https://github.com/shahriar-kabir/study-nook-client",
+      githubUrl: "https://github.com/md-shahriar-kabir/studynook",
       image: "bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-950",
       features: [
         "Synchronized Pomodoro timers for study rooms to maintain work-rest cycles.",
@@ -192,13 +192,13 @@ export const portfolioData = {
       ]
     },
     {
-      id: "github-issues-tracker",
-      title: "GitHub Issues Tracker",
-      shortDescription: "An advanced dashboard for repo analytics and seamless issue management.",
-      description: "GitHub Issues Tracker is an immersive developer-centric dashboard designed to organize and streamline repository tracking. Integrating with the GitHub GraphQL & REST APIs, it provides stunning visualization of commit pipelines, issues open/closed status, pull request review requests, and interactive charts displaying team performance metrics over time.",
+      id: "Tile Lux",
+      title: "Showcase Tile Gallery",
+      shortDescription: "A modern, full-stack tile gallery web application built with Next.js App Router, HeroUI, and BetterAuth.",
+      description: "A modern, full-stack tile gallery web application built with Next.js App Router, HeroUI, and BetterAuth. Browse curated ceramic, mosaic, and geometric tile collections — filter, explore details, and manage your profile seamlessly.",
       techStack: ["Next.js", "Tailwind CSS", "GitHub API", "Recharts", "Framer Motion", "JWT"],
-      liveUrl: "https://github-tracker-pro.vercel.app",
-      githubUrl: "https://github.com/shahriar-kabir/github-issues-tracker",
+      liveUrl: "https://showcase-tile-gallery.vercel.app/",
+      githubUrl: "https://github.com/md-shahriar-kabir/showcase-tile-gallery",
       image: "bg-gradient-to-br from-slate-900 via-blue-950 to-indigo-950",
       features: [
         "Real-time issue tracking with automated label matching and repository filters.",
@@ -219,13 +219,13 @@ export const portfolioData = {
       ]
     },
     {
-      id: "job-application-tracker",
-      title: "Job Application Tracker",
-      shortDescription: "Interactive Kanban workspace to monitor and manage job applications.",
-      description: "Job Application Tracker is a productivity platform designed to help job seekers manage their professional pipeline. Combining clean database schemas with an interactive drag-and-drop board, it enables candidates to organize applications (Applied, Interviewing, Offered, Rejected), track recruiter contacts, log follow-up reminders, and visualize pipeline ratios through rich analytical reports.",
+      id: "Digitool Platform",
+      title: "Digitool Platform",
+      shortDescription: "Digital Tools Marketplace is a modern, responsive web application built using React.js that allows users to explore and manage various digital products in a structured and user-friendly interface.",
+      description: "Digital Tools Marketplace is a modern, responsive web application built using React.js that allows users to explore and manage various digital products in a structured and user-friendly interface. The application simulates a real-world marketplace where users can browse products, add them to a cart, and proceed to checkout with interactive feedback.",
       techStack: ["MongoDB", "Express.js", "React", "Node.js", "Tailwind CSS", "Framer Motion", "Recharts"],
-      liveUrl: "https://job-application-tracker-red-five.vercel.app/",
-      githubUrl: "https://github.com/md-shahriar-kabir/job-application-tracker",
+      liveUrl: "https://digitools-platform-olive.vercel.app/",
+      githubUrl: "https://github.com/md-shahriar-kabir/digitools-platform",
       image: "bg-gradient-to-br from-emerald-950 via-teal-900 to-cyan-950",
       features: [
         "Fluid drag-and-drop interface powered by Framer Motion to move job cards across funnel phases.",
@@ -246,40 +246,12 @@ export const portfolioData = {
       ]
     },
     {
-      id: "eid-countdown",
-      title: "Eid Countdown App",
-      shortDescription: "A beautiful, cinematic celebration countdown app with interactive cards.",
-      description: "The Eid Countdown App is an immersive, highly interactive single-page application featuring smooth particle effects, starry dynamic skies, and beautiful mathematical countdowns leading up to Eid celebrations. Built with premium audio integrations, local prayer schedules, and an interactive greeting card generator that lets users customize, animate, and share festive greetings with family.",
-      techStack: ["Next.js", "Tailwind CSS", "GSAP", "Framer Motion", "Web Audio API"],
-      liveUrl: "https://eid-countdown-cel.vercel.app",
-      githubUrl: "https://github.com/shahriar-kabir/eid-countdown",
-      image: "bg-gradient-to-br from-purple-950 via-pink-900 to-rose-950",
-      features: [
-        "Cinematic counting display down to milliseconds with floating crescent animation.",
-        "Starry night sky generator with interactive shooting stars matching user mouse clicks.",
-        "Built-in web player playing high-fidelity ambient nature soundtracks and festive tunes.",
-        "A customized greeting canvas where users can input custom texts and export beautiful custom images."
-      ],
-      challenges: "Exporting HTML/CSS stylized cards as standalone high-quality PNGs client-side without relying on expensive server-side rendering setups.",
-      improvements: [
-        "Implemented the lightweight `html2canvas` library directly on the client browser.",
-        "Created an asset preloading system verifying that custom web fonts and decorative vector curves are cached before capturing canvas states.",
-        "Optimized image scaling settings on canvas renders to deliver crisp resolution on high-DPI retina displays."
-      ],
-      gallery: [
-        "bg-gradient-to-br from-purple-950 to-pink-900",
-        "bg-gradient-to-br from-rose-950 to-amber-950",
-        "bg-gradient-to-br from-indigo-950 to-purple-900"
-      ]
-    },
-    {
-      id: "tile-gallery",
-      title: "Tile Gallery Website",
-      shortDescription: "A highly immersive, interactive horizontal scrolling 3D tile art showcase.",
-      description: "Tile Gallery is a high-performance visual exhibition showcasing intricate architectural tile art and textures. Inspired by premium showcase websites, it implements customized 3D tilt effects, parallax horizontal scrolling, and fluid page transitions using GSAP and Lenis scrolling, making exploration feel like walking through a physical museum.",
+      id: "issue-tracker",
+      title: "Git Hub Issue Tracker",
+      shortDescription: "GitHub Issues Tracker is a simple yet powerful web application that helps users track, manage, and organize GitHub issues efficiently with a clean and modern UI.",
       techStack: ["Next.js", "Tailwind CSS", "GSAP", "ScrollTrigger", "Lenis", "Framer Motion"],
-      liveUrl: "https://tile-gallery-showcase.vercel.app",
-      githubUrl: "https://github.com/shahriar-kabir/tile-gallery",
+      liveUrl: "https://github-issues-tracker-two.vercel.app/",
+      githubUrl: "https://github.com/md-shahriar-kabir/github_issues_tracker",
       image: "bg-gradient-to-br from-cyan-950 via-sky-900 to-blue-950",
       features: [
         "Buttery horizontal grid layouts powered by GSAP ScrollTrigger to translate vertical scroll into smooth x-axis motions.",
@@ -297,6 +269,59 @@ export const portfolioData = {
         "bg-gradient-to-br from-cyan-950 to-blue-900",
         "bg-gradient-to-br from-sky-950 to-slate-900",
         "bg-gradient-to-br from-teal-950 to-indigo-950"
+      ]
+    },
+    {
+      id: "keen-keeper",
+      title: "Find Your Friends",
+      shortDescription: "KeenKeeper is a personal relationship management tool that helps users nurture and maintain meaningful connections. By tracking interactions and analyzing engagement patterns, it ensures that important relationships are consistently cared for and never overlooked.",
+      techStack: ["Next.js", "Tailwind CSS", "GSAP", "ScrollTrigger", "Lenis", "Framer Motion"],
+      liveUrl: "https://keen-keeper-nextjs-project.vercel.app/",
+      githubUrl: "https://github.com/md-shahriar-kabir/keen-keeper-project",
+      image: "bg-gradient-to-br from-cyan-950 via-sky-900 to-blue-950",
+      features: [
+        "Buttery horizontal grid layouts powered by GSAP ScrollTrigger to translate vertical scroll into smooth x-axis motions.",
+        "Responsive 3D rotation and dynamic glare highlights tracking mouse coordinate points.",
+        "Elegant photo expansion overlay with smooth layout transformations (Flip animations) utilizing GSAP.",
+        "Cinematic image blur-in preloading system to ensure visual fidelity during gallery loads."
+      ],
+      challenges: "Maintaining solid 60fps performance during complex 3D transformation calculations and scroll parallax effects on legacy mobile browsers.",
+      improvements: [
+        "Integrated Lenis scrolling to decouple scroll inputs from render ticks, delivering smooth hardware-accelerated layouts.",
+        "Applied CSS properties (`will-change`, `transform3d`) to individual gallery cards, offloading card rendering calculations onto the GPU.",
+        "Implemented full image viewport lazy loading, fetching details only when they are close to appearing on-screen."
+      ],
+      gallery: [
+        "bg-gradient-to-br from-cyan-950 to-blue-900",
+        "bg-gradient-to-br from-sky-950 to-slate-900",
+        "bg-gradient-to-br from-teal-950 to-indigo-950"
+      ]
+    },
+    {
+      id: "eid-countdown",
+      title: "Eid Countdown App",
+      shortDescription: "A beautiful, cinematic celebration countdown app with interactive cards.",
+      description: "The Eid Countdown App is an immersive, highly interactive single-page application featuring smooth particle effects, starry dynamic skies, and beautiful mathematical countdowns leading up to Eid celebrations. Built with premium audio integrations, local prayer schedules, and an interactive greeting card generator that lets users customize, animate, and share festive greetings with family.",
+      techStack: ["Next.js", "Tailwind CSS", "GSAP", "Framer Motion", "Web Audio API"],
+      liveUrl: "https://eid-countdown-five.vercel.app/",
+      githubUrl: "https://github.com/md-shahriar-kabir/eid_countdown",
+      image: "bg-gradient-to-br from-purple-950 via-pink-900 to-rose-950",
+      features: [
+        "Cinematic counting display down to milliseconds with floating crescent animation.",
+        "Starry night sky generator with interactive shooting stars matching user mouse clicks.",
+        "Built-in web player playing high-fidelity ambient nature soundtracks and festive tunes.",
+        "A customized greeting canvas where users can input custom texts and export beautiful custom images."
+      ],
+      challenges: "Exporting HTML/CSS stylized cards as standalone high-quality PNGs client-side without relying on expensive server-side rendering setups.",
+      improvements: [
+        "Implemented the lightweight `html2canvas` library directly on the client browser.",
+        "Created an asset preloading system verifying that custom web fonts and decorative vector curves are cached before capturing canvas states.",
+        "Optimized image scaling settings on canvas renders to deliver crisp resolution on high-DPI retina displays."
+      ],
+      gallery: [
+        "bg-gradient-to-br from-purple-950 to-pink-900",
+        "bg-gradient-to-br from-rose-950 to-amber-950",
+        "bg-gradient-to-br from-indigo-950 to-purple-900"
       ]
     }
   ] as Project[]
